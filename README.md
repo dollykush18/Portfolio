@@ -1,90 +1,110 @@
 # Dolly Kushwaha — Personal Portfolio
 
-A modern, premium portfolio website built with React + Vite + Tailwind CSS.
+A modern and responsive personal portfolio website showcasing my projects, technical skills, education, and experience.
 
-## 🚀 Setup & Run
+Built with **React, Vite, and Tailwind CSS**.
 
-```bash
-npm install
-npm run dev
-```
+## 🌐 About
 
-Open http://localhost:5173
+This portfolio represents my journey as a Computer Science undergraduate and highlights my work in:
 
-## 📦 Build for Production
+- Full-stack web development
+- Data analytics
+- Data Structures & Algorithms
+- REST API development
+- Modern frontend development
+- Exploring LLM-based application development
 
-```bash
-npm run build
-npm run preview
-```
+## 🚀 Featured Projects
+
+### 1. Employee Presence Analytics
+
+An analytics dashboard focused on employee attendance and workplace presence insights.
+
+**Technologies:** Power BI, SQL, Excel
+
+### 2. Collabroom
+
+A collaborative web application built to provide users with an interactive platform for communication and collaboration.
+
+**Technologies:** React.js, Node.js, Express.js, MongoDB
+
+### 3. Zerodha Clone
+
+A frontend-focused recreation of the Zerodha trading platform interface, built to practice modern React development and responsive UI design.
+
+**Technologies:** React.js, JavaScript, HTML, CSS
+
+## 🛠️ Tech Stack
+
+### Languages
+- C++
+- JavaScript
+- SQL
+
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
+- Role-Based Access Control
+
+### Database
+- MongoDB
+- SQL
+
+### Data & Analytics
+- Excel
+- Power BI
+
+### Tools
+- Git
+- GitHub
+- VS Code
+
+## 📊 DSA
+
+I actively practice Data Structures and Algorithms and have solved **300+ problems** across coding platforms.
+
+Areas I practice include:
+
+- Arrays & Strings
+- Linked Lists
+- Stacks & Queues
+- Trees & BST
+- Heaps
+- Graphs
+- Recursion
+- Greedy Algorithms
+- Dynamic Programming
+- Binary Search
+- Hashing
 
 ## 📁 Project Structure
 
-```
-src/
-  components/
-    Navbar.jsx         # Sticky nav with mobile hamburger
-    Hero.jsx           # Hero section with photo and stickers
-    About.jsx          # About + journey timeline
-    Skills.jsx         # Skills cards by category
-    Projects.jsx       # Project section container
-    ProjectCard.jsx    # Individual project card with SVG previews
-    Experience.jsx     # Education + certifications + highlights
-    Contact.jsx        # Contact links + CTA
-    Footer.jsx         # Footer
-
-  data/
-    portfolio.js       # All resume data (single source of truth)
-
-  assets/
-    dolly.jpg          # Your photo
-
-public/
-  resume.pdf           # ← PLACE YOUR RESUME PDF HERE
-  favicon.svg
-
-index.html
-vite.config.js
-```
-
-## 📸 Photo
-
-Your photo is currently cropped from the portfolio reference image.
-Replace `src/assets/dolly.jpg` with your actual high-resolution photo.
-
-## 📄 Resume
-
-Place your resume PDF at `public/resume.pdf`.
-The "Download Resume" button will automatically serve it.
-
-## 🌐 Deploy to Vercel
-
-1. Push to GitHub
-2. Go to vercel.com → New Project → Import GitHub repo
-3. Framework: Vite (auto-detected)
-4. Deploy!
-
-## 🌐 Deploy to GitHub Pages
-
-```bash
-npm install gh-pages --save-dev
-# Add to package.json scripts:
-# "deploy": "gh-pages -d dist"
-npm run build && npm run deploy
-```
-
-## ✏️ Update Content
-
-All portfolio data lives in `src/data/portfolio.js`:
-- Personal info, links, bio
-- Education, skills, projects
-- Journey timeline
-
-## 🎨 Design Tokens
-
-CSS variables in `src/index.css`:
-- `--navy` / `--navy-light` — dark backgrounds
-- `--lime` — accent color (#a3e635)
-- `--cream` — light sections
-- `--font-display` — Syne (headings)
-- `--font-body` — Space Grotesk (body)
+```text
+portfolio/
+│
+├── public/
+│   ├── favicon.svg
+│   └── resume.pdf
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
