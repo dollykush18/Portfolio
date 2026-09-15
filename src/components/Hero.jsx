@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { personalInfo } from "../data/portfolio";
 import { Mail, Download, ArrowDown } from "lucide-react";
-import dollyPhoto from "../assets/dolly.jpg";
+import dollyPhoto from "../assets/dolly-photo.png";
 
 const STICKERS = [
   { label: "DATA + CODE", rotate: -8, top: "12%", left: "2%", delay: 0, color: "#a3e635", textColor: "#0d1117" },
@@ -125,8 +125,8 @@ export default function Hero() {
           padding: "4rem 5vw",
           width: "100%",
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
-          gap: "4rem",
+          gridTemplateColumns: "minmax(0, 1.05fr) minmax(0, 0.95fr)",
+          gap: "5rem",
           alignItems: "center",
           position: "relative",
           zIndex: 2,
@@ -165,7 +165,7 @@ export default function Hero() {
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 800,
-              fontSize: "clamp(3.5rem, 8vw, 6.5rem)",
+              fontSize: "clamp(2.5rem, 4.2vw, 4rem)",
               lineHeight: 0.9,
               letterSpacing: "-0.03em",
               marginBottom: "1rem",
@@ -356,8 +356,8 @@ export default function Hero() {
             style={{
               position: "relative",
               zIndex: 2,
-              width: "75%",
-              maxWidth: 380,
+              width: "88%",
+              maxWidth: 440,
             }}
           >
             <img
@@ -366,10 +366,8 @@ export default function Hero() {
               style={{
                 width: "100%",
                 display: "block",
-                objectFit: "cover",
-                objectPosition: "center top",
-                borderRadius: "20px 20px 0 0",
-                filter: "contrast(1.03) brightness(1.02)",
+                objectFit: "contain",
+                filter: "contrast(1.03) brightness(1.02) drop-shadow(0 12px 24px rgba(0,0,0,0.35))",
               }}
               onError={(e) => {
                 // Fallback if image fails
