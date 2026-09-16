@@ -7,9 +7,9 @@ export const personalInfo = {
   bio: "Computer Science undergraduate with hands-on experience building full-stack web applications using React.js, Node.js, Express.js, MongoDB, and REST APIs. Solved 200+ Data Structures & Algorithms problems across LeetCode and CodeChef. Currently exploring data analytics and LLM-based application development.",
   email: "dollykush1804@gmail.com",
   phone: "+91 8318878783",
-  linkedin: "https://linkedin.com/in/dolly-kushwaa",
-  github: "https://github.com/dollykush",
-  codolio: "https://codolio.com",
+  linkedin: "https://www.linkedin.com/in/dolly-kushwaha-045421382/",
+  github: "https://github.com/dollykush18",
+  codolio: "https://codolio.com/profile/dolly_kush18",
   location: "Lucknow, India",
   resumeUrl: "/resume.pdf",
 };
