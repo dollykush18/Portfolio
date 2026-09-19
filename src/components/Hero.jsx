@@ -4,7 +4,7 @@ import { Mail, Download, ArrowDown } from "lucide-react";
 import dollyPhoto from "../assets/dolly-photo.png";
 
 const STICKERS = [
-  { label: "DATA + CODE", rotate: -8, top: "12%", left: "2%", delay: 0, color: "#a3e635", textColor: "#0d1117" },
+  { label: "DATA + CODE", rotate: -8, top: "9%", left: "12%", delay: 0, color: "#a3e635", textColor: "#0d1117" },
   { label: "BUILD → ANALYZE", rotate: 6, top: "60%", left: "-1%", delay: 0.3, color: "#161b22", textColor: "#a3e635", border: "1px solid #a3e63560" },
   { label: "PROBLEM SOLVER ✦", rotate: -4, top: "78%", right: "2%", delay: 0.5, color: "#818cf8", textColor: "#fff" },
   { label: "DATA ANALYST IN PROGRESS", rotate: 5, top: "2%", right: "-8%", delay: 0.2, color: "#fb923c", textColor: "#fff" },
